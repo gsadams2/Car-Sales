@@ -11,6 +11,8 @@ const AddedFeatures = props => {
           {props.car.features.map(item => (
             <AddedFeature key={item.id} feature={item} />
           ))}
+          
+          
         </ol>
       ) : (
         <p>You can purchase items from the store.</p>
